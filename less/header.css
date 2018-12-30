@@ -1,0 +1,16 @@
+#header {
+  border-bottom: 1px solid ;
+}
+#header .row {
+  line-height: 40px;
+}
+#header .row div {
+  font-size: 12px;
+}
+#header .row div a {
+  color: #666;
+}
+#header .row div a img {
+  position: absolute;
+  left: 50%;
+}

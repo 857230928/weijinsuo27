@@ -1,0 +1,87 @@
+#header {
+  border-bottom: 1px solid #ccc;
+}
+#header .row {
+  line-height: 40px;
+}
+#header .row div {
+  font-size: 12px;
+}
+#header .row div a {
+  color: #666;
+}
+#header .row div a img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
+  z-index: 999;
+}
+#header .row div a:hover img {
+  display: block;
+}
+#header .row div ~ div {
+  border-left: 1px solid #ccc;
+}
+#nav {
+  background-color: #fff;
+  margin-bottom: 0;
+}
+#nav .navbar-header .navbar-toggle {
+  margin-top: 23px;
+}
+#nav .navbar-header .navbar-brand {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .navbar-header .navbar-brand i {
+  font-size: 30px;
+}
+#nav .navbar-header .navbar-brand i.icon-icon {
+  color: #e92322;
+}
+#nav .navbar-header .navbar-brand i.icon-logo {
+  color: #333;
+}
+#nav .navbar-collapse .navbar-nav li a {
+  height: 80px;
+  line-height: 50px;
+}
+#nav .navbar-collapse .navbar-nav li a:hover {
+  border-bottom: 2px solid #e92322;
+}
+#nav .navbar-collapse .navbar-nav li.active a {
+  border-bottom: 2px solid #e92322;
+  background: #fff;
+}
+#slide .large-image {
+  background-position: center;
+  width: 100%;
+  height: 410px;
+}
+#slide .small-image img {
+  width: 100%;
+}
+#feature {
+  padding: 40px 0 ;
+}
+#feature .media {
+  margin-bottom: 10px;
+  width: 210px;
+  margin: 0 auto;
+}
+#feature .media a {
+  text-decoration: none;
+  color: #666;
+}
+#feature .media a:hover {
+  color: #e92322;
+}
+#booking {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+#booking .text-danger {
+  color: #e92322;
+}

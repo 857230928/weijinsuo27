@@ -1,0 +1,56 @@
+#products {
+    background-color: #ccc;
+    padding: 40px 0;
+    .nav-tabs {
+        li {
+            &.active {
+                a {
+                    // 透明背景色
+                    background-color: transparent;
+                    border-bottom: 3px solid @main-color;
+                }
+            }
+            a {
+                // 注意所有的a都有边框 把所有的a都去掉
+                border: 0;
+                border-bottom: 3px solid transparent;
+                color: #666;
+                font-size: 16px;
+            }
+        }
+    }
+    .tab-content {
+        .product {
+            background-color: #fff;
+            margin-top: 20px;
+            display: flex;
+            position: relative;
+            &.active {
+                background-color: @main-color;
+                color: #fff;
+                &::before {
+                    content: "\e951";
+                    font-family: 'itcast';
+                    font-size: 30px;
+                    position: absolute;
+                    top: -6px;
+                }
+            }
+            .product-left {
+                flex: 1;
+                padding: 15px;
+                h4 {
+                    text-align: center;
+                }
+                .row {
+                    div {
+                        margin-bottom: 10px;
+                        &:nth-child(2n) {
+                            text-align: right;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
